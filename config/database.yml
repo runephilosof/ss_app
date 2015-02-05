@@ -1,0 +1,17 @@
+
+default: &default
+  adapter: sqlserver
+  host: ss2014
+  username: <%= ENV['SQLSERVER_USER'] %>
+  password: <%= ENV['SQLSERVER_PASS'] %>
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: ss_app_development
+
+test:
+  <<: *default
+  database: ss_app_test
+
