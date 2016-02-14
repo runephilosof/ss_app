@@ -1,4 +1,4 @@
 
-# SQL Server Rake Task Test App
+# SQL Server DB Task Test App
 
 That is all.
