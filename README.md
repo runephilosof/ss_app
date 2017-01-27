@@ -16,6 +16,8 @@ Now create the DB and setup the app.
 
 ```shell
 $ bundle install
-$ ./bin/rake db:setup
+$ ./bin/rails db:setup
 ```
+
+
 
