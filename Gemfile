@@ -1,18 +1,17 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 4.2.0'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder'
 
-gem 'activerecord-sqlserver-adapter', path: '/Users/kencollins/Repositories/activerecord-sqlserver-adapter'
-gem 'tiny_tds', '0.9.5.rc2'
+gem 'activerecord-sqlserver-adapter'
+gem 'tiny_tds'
 
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-
