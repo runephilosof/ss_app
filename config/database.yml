@@ -1,11 +1,10 @@
 
 default: &default
   adapter: sqlserver
-  host: ss2014
-  username: <%= ENV['SQLSERVER_USER'] %>
-  password: <%= ENV['SQLSERVER_PASS'] %>
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  username: sa
+  password: <%= ENV['SA_PASSWORD'] %>
+  host: localhost
 
 development:
   <<: *default
