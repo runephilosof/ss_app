@@ -1,17 +1,21 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2.0'
+gem 'rails', '~> 5.0.0'
+gem 'coffee-script'
+gem 'jbuilder'
+gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
-gem 'jquery-rails'
-gem 'jbuilder'
 
 gem 'activerecord-sqlserver-adapter'
 gem 'tiny_tds'
 
+group :development do
+  gem 'better_errors'
+  gem 'web-console', github: 'rails/web-console'
+end
+
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
