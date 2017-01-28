@@ -19,5 +19,9 @@ $ bundle install
 $ ./bin/rails db:setup
 ```
 
+We can also drop
 
+```shell
+$ ./bin/rails db:drop:all
+```
 
