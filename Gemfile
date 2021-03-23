@@ -12,7 +12,7 @@ gem 'tiny_tds'
 
 group :development do
   gem 'better_errors'
-  gem 'web-console', github: 'rails/web-console'
+  gem 'web-console'
 end
 
 group :development, :test do
